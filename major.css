@@ -1,0 +1,118 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	display: block;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #ccc;
+    height: 90vh;
+	background-color: rgb(130, 114, 114);
+}
+.navbar {
+	border: 30px solid rgb(130, 114, 114);;
+	 background-color: rgb(169, 163, 163);
+	 height: 30px;
+ }
+ .navbar a{
+	 top: 6px;
+	 position: relative;
+	 padding: 10px;
+	 color: black;
+	 left: 100px;
+	 font-size: large;
+	 text-decoration: none;
+ }
+
+.logo {
+	background-color: rgb(130, 114, 114);
+	position: absolute;
+	padding: 10px 0 0 0;
+	
+}
+
+#recipe {
+	background-color: rgb(130, 114, 114);
+	padding: 40;
+}
+
+#details {
+	background-color: rgb(130, 114, 114);
+	padding: 40px;
+}
+
+
+#categories {
+	text-align: left;
+	padding: 30px;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0;
+	text-align: center;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+li:before {
+	content: "•";
+	margin-right: 10px;
+	color:brown
+}
+
+.Userprofile {
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #ccc;
+}
+form {
+	margin: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+	background-color: #007bff;
+	color: #ffffff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #00698f;
+}
+
+.ratings {
+	position: absolute;
+	color: #fff;
+}
+span{
+size: 20px;
+
+}
+footer {
+	background-color: #f2f2f2;
+	padding: 10px;
+	text-align: center;
+}
+
